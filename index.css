@@ -5,6 +5,7 @@ html, body {
 	height: 100%;
 	background-color: #555555;
 	color: #EEEEEE;
+	font-family: monospace;
 }
 
 #mode {
@@ -30,7 +31,7 @@ html, body {
 }
 
 .modal-content {
-	font-family: monospace;
+/*	font-family: monospace;*/
 	text-align: center;
 	background-color: #555555;
 	margin: 15% auto; 
@@ -44,4 +45,9 @@ html, body {
 	padding: 3% 5% 3% 5%;
 	cursor: pointer;
 	border-radius: 2px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5vw;
 }
