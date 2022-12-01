@@ -31,6 +31,8 @@ button {
     text-align: center;
     transition: all 0.2s;
     border: none;
+    height: auto;
+    width: 15%;
 }
 
 button:hover{
