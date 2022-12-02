@@ -1,9 +1,15 @@
 //fetch from to https://api.waifu.pics/
 let imgElem = document.getElementById("waifu-img");
+let mode = document.getElementById("mode");
 
 function clickedButton() {
-    getWaifu('sfw', 'waifu').then(data => {
-        console.log(data['url']);
+    let type = "sfw";
+
+    if (mode.checked) {
+        type = "nsfw";
+    }
+    getWaifu(type, "waifu").then(data => {
+        //console.log(data['url']);
         imgElem.src = data['url'];
     });
 }
