@@ -19,9 +19,7 @@ html, body {
 }
 
 button {
-    display: inline-block;
-    padding: 0.3em 1.2em;
-    margin: 0 0.3em 0.3em 0;
+    padding: 1em 1.2em;
     border-radius: 2em;
     box-sizing: border-box;
     text-decoration: none;
@@ -29,10 +27,10 @@ button {
     color: #FFFFFF;
     background-color: #4eb5f1;
     text-align: center;
-    transition: all 0.2s;
     border: none;
     height: auto;
     width: 15%;
+    font-size: 100%;
 }
 
 button:hover{
