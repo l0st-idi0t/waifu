@@ -16,6 +16,7 @@ html, body {
 .container img {
     height: 100%;
     width: auto;
+    border-radius: 10px;
 }
 
 button {
