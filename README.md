@@ -1,1 +1,2 @@
-james is down bad
+
+it's boring
